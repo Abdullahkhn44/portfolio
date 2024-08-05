@@ -1,12 +1,14 @@
-import Header from "./components/header"
+import Home from './sections/home'
 
-
+import './assets/styles/App.css'
 
 function App() {
 
 
   return (
-    <Header />
+    <div className="app">
+       <div><Home /></div>
+    </div>
   )
 }
 
