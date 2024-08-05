@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+  background-color: black;
+
+}
+
+.banner-image {
+    display: flex;
+    width: 100pc;
+    height: 35pc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+   
+}
