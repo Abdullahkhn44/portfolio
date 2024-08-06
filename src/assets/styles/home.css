@@ -2,18 +2,20 @@
   display: flex;
   overflow: hidden;
   position: relative;
+  background-color: black;
+
 }
 
 .banner-image {
   display: flex;
   width: 100pc;
-  height: 40pc;
+  height: 38pc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   object-fit: cover;
-filter: blur(1px);
+filter: blur(8px);
 }
 
 .main {
@@ -29,16 +31,35 @@ filter: blur(1px);
 }
 
 .mainText  {
-  
+  margin: 55px;
   color: white; 
-  font-size: 1rem; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
+ 
 }
 
 .mainProfile .profileImage {
-  width: 400px; /* Adjust size as needed */
-  height: 400px; /* Adjust size as needed */
-  border-radius: 50%;
-  border: 0px solid rgb(255, 255, 255); /* Optional: add a border for better appearance */
+  width: 480px; /* Adjust size as needed */
+  height: 650px; /* Adjust size as needed */
+  border-radius: 10%;
+
 
 }
+.name{
+ font-size:90px;
+ color: gold;
+ font-family: "Montserrat";
+
+}
+.dev{
+  font-size: 80px;
+  color: white;
+
+ }
+ .hi{
+  font-size: large;
+  font-weight: bold;
+ }
+ .developer{ 
+  font-size:80px;
+  letter-spacing: 12px;
+ }
