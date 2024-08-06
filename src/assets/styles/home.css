@@ -15,7 +15,7 @@
   background-size: cover;
   position: relative;
   object-fit: cover;
-filter: blur(8px);
+  filter: blur(4px);
 }
 
 .main {
@@ -27,39 +27,80 @@ filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
-.mainText  {
+.mainText {
   margin: 55px;
-  color: white; 
+  color: white;
 
- 
+
 }
 
 .mainProfile .profileImage {
-  width: 480px; /* Adjust size as needed */
-  height: 650px; /* Adjust size as needed */
+  width: 480px;
+  /* Adjust size as needed */
+  height: 650px;
+  /* Adjust size as needed */
   border-radius: 10%;
 
 
 }
-.name{
- font-size:90px;
- color: gold;
- font-family: "Montserrat";
+
+.name {
+  font-size: 70px;
+  color: gold;
+  font-family: "Montserrat";
 
 }
-.dev{
-  font-size: 80px;
-  color: white;
 
- }
- .hi{
+.dev {
+  font-size: 60px;
+  color: white;
+  font-family: "Montserrat";
+
+}
+
+.hi {
   font-size: large;
   font-weight: bold;
- }
- .developer{ 
-  font-size:80px;
-  letter-spacing: 12px;
- }
+
+}
+
+.developer {
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: "Montserrat";
+}
+
+.buttonDiv {
+
+  margin:55px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 70%;
+
+  width: 45%;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  margin-right:100px;
+  background: none; 
+  border: none; 
+  padding: 0; 
+}
+
+
+.images{
+  width: 70px;
+  height: 70px;
+}
+.cv{
+  width: 70px;
+  height: 70px;
+  border-radius: 65%;
+}
