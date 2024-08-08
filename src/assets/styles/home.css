@@ -38,9 +38,9 @@
 }
 
 .mainProfile .profileImage {
-  width: 480px;
+  width: 440px;
   /* Adjust size as needed */
-  height: 650px;
+  height: 600px;
   /* Adjust size as needed */
   border-radius: 10%;
 
@@ -48,14 +48,14 @@
 }
 
 .name {
-  font-size: 70px;
+  font-size: 65px;
   color: gold;
   font-family: "Montserrat";
 
 }
 
 .dev {
-  font-size: 60px;
+  font-size: 58px;
   color: white;
   font-family: "Montserrat";
 
@@ -68,7 +68,7 @@
 }
 
 .developer {
-  font-size: 60px;
+  font-size: 58px;
   letter-spacing: 10px;
   font-family: "Montserrat";
 }
@@ -96,11 +96,11 @@
 
 
 .images{
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
 }
 .cv{
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 65%;
 }

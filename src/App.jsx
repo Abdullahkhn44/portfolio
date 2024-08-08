@@ -1,13 +1,18 @@
-import Home from './sections/home'
-
 import './assets/styles/App.css'
+import Home from './sections/home'
+import About from './sections/About'
+import Skills from './sections/Skills'
+
+
 
 function App() {
 
 
   return (
     <div className="app">
-       <div><Home /></div>
+      <Home />
+      <About />
+      <Skills />
     </div>
   )
 }
