@@ -1,0 +1,175 @@
+.MainServiceDiv {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    height: 45%;
+}
+
+.service-image {
+
+    height: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+.serviceTitle {
+    font-size: 45px;
+    color: gold;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.titleDiv {
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    z-index: 1;
+}
+
+.makingAppDiv {
+    display: flex;
+    margin-top: 8%;
+    position: absolute;
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: center;
+
+    align-content: center;
+
+}
+
+.devImage {
+    position: relative;
+    width: 380px;
+    height: 390px;
+    right: 20%;
+}
+
+.AppText {
+    font-size: 30px;
+    color: gold;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.AppTextpara {
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: left;
+    width: 650px;
+    font-weight: 400;
+}
+
+.makingAppText {
+    position: relative;
+    left: 10%;
+    justify-content: center;
+
+    align-content: center;
+}
+
+/*2 */
+
+
+.makingAppDiv2 {
+    display: flex;
+    margin-top: 45%;
+    position: absolute;
+    width: 100%;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    align-content: center;
+
+}
+
+.devImage2 {
+    position: relative;
+    width: 380px;
+    height: 390px;
+    left: 20%;
+}
+
+.AppText2 {
+    font-size: 30px;
+    color: gold;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.AppTextpara2 {
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: left;
+    width: 650px;
+    font-weight: 400;
+}
+
+.makingAppText2 {
+    position: relative;
+    right: 5%;
+    justify-content: center;
+
+    align-content: center;
+}
+/*3 */
+.makingAppDiv3 {
+    display: flex;
+    margin-top: 82%;
+    position: absolute;
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: center;
+
+    align-content: center;
+
+}
+
+.devImage3 {
+    position: relative;
+    width: 380px;
+    height: 390px;
+    right: 20%;
+}
+
+.AppText3 {
+    font-size: 30px;
+    color: gold;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.AppTextpara3 {
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: left;
+    width: 650px;
+    font-weight: 400;
+}
+
+.makingAppText3 {
+    position: relative;
+    left: 10%;
+    justify-content: center;
+
+    align-content: center;
+}
