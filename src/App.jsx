@@ -3,7 +3,7 @@ import Home from './sections/home'
 import About from './sections/About'
 import Skills from './sections/Skills'
 import Services from './sections/Services'
-
+import Eservices from './components/Eservices'
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <About />
       <Skills />
       <Services/>
+      <Eservices/>
+      
     </div>
   )
 }
