@@ -4,6 +4,7 @@ import About from './sections/About'
 import Skills from './sections/Skills'
 import Services from './sections/Services'
 import Eservices from './components/Eservices'
+import Work from './sections/Work'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Skills />
       <Services/>
       <Eservices/>
-      
+      <Work/>
     </div>
   )
 }
