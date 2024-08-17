@@ -1,0 +1,96 @@
+.contactMainDiv {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    height: 50pc;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../images/blur3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.contactTitleDiv {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactText {
+    font-size: 55px;
+    color: gold;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.contactContainer{
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+.containerSections{
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 1000px;
+}
+.containerTitleDiv{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.contactContainerTitle{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.contactSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    gap: 25px;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.iconText{
+    font-size: 18px;
+    color:white;
+    font-family: "Montserrat";
+    text-align: left;
+    font-weight: 200;
+    margin-bottom: 28px;
+    
+}
+.iconDiv {
+    display: flex;
+    flex-direction: column; 
+    
+  }

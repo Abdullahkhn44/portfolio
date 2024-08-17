@@ -1,0 +1,52 @@
+.footerMainDiv {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 20pc;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nameDiv {
+    display: flex;
+    width: 250px;
+   position: relative;
+  
+}
+
+.footerName {
+    font-size: 25px;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.socialIconDiv {
+  width: 400px;
+    display: flex; gap: 50px;
+  
+
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+  
+
+}
+.footerUlist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+a:hover{
+   
+    color:gold;
+}

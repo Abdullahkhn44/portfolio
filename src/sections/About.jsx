@@ -5,7 +5,7 @@ import '../assets/styles/About.css'
 export default function
     () {
     return (
-        <div className='mainDiv'>
+        <div className='mainDiv'  id="About">
             <div className='TextDiv'>
                 <div className='heading'>
                     <h1 className='About'>About</h1>

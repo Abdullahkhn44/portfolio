@@ -53,7 +53,7 @@ function Work() {
 
 
     return (
-        <div className='workMainDiv'>
+        <div className='workMainDiv'  id="Work">
            
             <div className='workTitleDiv'><h1 className='workText'>Work So Far</h1></div>
 

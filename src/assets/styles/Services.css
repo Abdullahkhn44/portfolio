@@ -50,8 +50,8 @@
 
 .devImage {
     position: relative;
-    width: 380px;
-    height: 390px;
+    width: 320px;
+    height: 320px;
     right: 20%;
 }
 
@@ -64,12 +64,12 @@
 }
 
 .AppTextpara {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-family: "Montserrat";
     text-align: left;
     width: 650px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .makingAppText {
@@ -98,8 +98,8 @@
 
 .devImage2 {
     position: relative;
-    width: 380px;
-    height: 390px;
+    width: 320px;
+    height: 320px;
     left: 20%;
 }
 
@@ -110,14 +110,13 @@
     text-align: left;
     margin-bottom: 3%;
 }
-
 .AppTextpara2 {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-family: "Montserrat";
     text-align: left;
     width: 650px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .makingAppText2 {
@@ -157,14 +156,7 @@
     margin-bottom: 3%;
 }
 
-.AppTextpara3 {
-    font-size: 18px;
-    color: white;
-    font-family: "Montserrat";
-    text-align: left;
-    width: 650px;
-    font-weight: 400;
-}
+
 
 .makingAppText3 {
     position: relative;
