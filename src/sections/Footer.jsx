@@ -4,7 +4,6 @@ import '../assets/styles/Footer.css'
 import emailIcon from '../assets/icons/emailIcon.png'
 import linkedinIcon from '../assets/icons/linkedinIcon.png'
 import githubIcon from '../assets/icons/githubIcon.png'
-import locationIcon from '../assets/icons/locationIcon.png'
 
 
 function Footer() {

@@ -10,7 +10,7 @@ import ar1 from '../assets/images/ar1.PNG'
 import ar2 from '../assets/images/ar2.jpg'
 import ar3 from '../assets/images/ar3.jpg'
 import ar4 from '../assets/images/ar4.jpg'
-import ar5 from '../assets/images/ar5.PNG'
+
 
 function Work() {
 
