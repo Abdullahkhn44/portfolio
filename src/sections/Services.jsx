@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/styles/Services.css'
 import ServiceImage from '../assets/images/six.jpg'
-import DevImage from '../assets/images/appdev2.png'
+
 import Custom from '../assets/icons/Custom.png'
 import Main from '../assets/icons/Main.png'
 import Backend from '../assets/icons/Backend.png'
