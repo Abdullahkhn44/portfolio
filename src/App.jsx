@@ -1,5 +1,5 @@
 import './assets/styles/App.css'
-import Home from './sections/home'
+import Home from './sections/Home'
 import About from './sections/About'
 import Skills from './sections/Skills'
 import Services from './sections/Services'
