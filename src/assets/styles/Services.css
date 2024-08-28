@@ -110,6 +110,7 @@
     text-align: left;
     margin-bottom: 3%;
 }
+
 .AppTextpara2 {
     font-size: 20px;
     color: white;
@@ -164,4 +165,66 @@
     justify-content: center;
 
     align-content: center;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .devImage {
+        position: relative;
+        width: 275px;
+        height: 275px;
+        right: 30%;
+    }
+
+    .makingAppText {
+        position: relative;
+        left: 6%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .AppText {
+        font-size: 28px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: left;
+        margin-bottom: 3%;
+    }
+
+    .AppTextpara {
+        font-size: 20px;
+        color: white;
+        font-family: "Montserrat";
+        text-align: left;
+        width: 575px;
+        font-weight: 300;
+    }
+
+    .devImage2 {
+        position: relative;
+        width: 290px;
+        height: 290px;
+        left: 20%;
+    }
+    .AppText2 {
+        font-size: 28px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    .AppText3 {
+        font-size: 28px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    .makingAppText3 {
+        position: relative;
+        left: 6%;
+        justify-content: center;
+    
+        align-content: center;
+    }
 }
