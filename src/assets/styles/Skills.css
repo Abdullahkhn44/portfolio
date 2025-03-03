@@ -21,6 +21,7 @@
     font-family: "Montserrat";
     margin-bottom: 10px;
 }
+
 .paramain {
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +31,8 @@
     width: 100%;
 
 }
-.paraskill{
+
+.paraskill {
     width: 50%;
     text-align: center;
 }
@@ -69,4 +71,33 @@
     height: 80px;
     width: 80px;
 
+}
+
+@media only screen and (max-width:768px) {
+
+    .paraskill {
+        width: 75%;
+        text-align: center;
+    }
+
+    .skillpara {
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        font-family: "Montserrat";
+        font-weight: 300;
+    }
+
+    .img {
+        margin: 6px;
+        padding: 15px;
+        background: rgb(255 255 255 / 8%);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.6px);
+        -webkit-backdrop-filter: blur(3.6px);
+        border: 1px solid rgba(255, 255, 255, 0.23);
+        height: 55px;
+        width: 55px;
+    }
 }

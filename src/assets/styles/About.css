@@ -51,3 +51,35 @@
     color: white;
     font-weight: 300;
 }
+
+@media only screen and (max-width:768px) {
+    .mainDiv {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+        height: 27pc;
+        flex-wrap: wrap;
+    }
+
+    .About {
+        font-size: 45px;
+        color: gold;
+        font-family: "Montserrat";
+
+    }
+
+    .about {
+        word-spacing: 1px;
+        width: 96%;
+    }
+
+    .para {
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 20px;
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 300;
+    }
+}

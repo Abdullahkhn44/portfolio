@@ -139,3 +139,87 @@
 .image-transition {
     transition: all 20s ease;
 }
+
+
+@media only screen and (max-width:768px) {
+    .workText {
+        font-size: 45px;
+
+    }
+
+    .workOne {
+        display: flex;
+        flex-direction: row;
+        height: 611px;
+        width: 729px;
+        margin-top: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.6px);
+        -webkit-backdrop-filter: blur(3.6px);
+        border: 1px solid rgba(255, 255, 255, 0.23);
+    }
+
+    .leftSide {
+        height: 442px;
+        width: 360px;
+    }
+
+    .containerTitle {
+        font-size: 25px;
+        color: gold;
+        font-family: "Montserrat";
+        /* text-align: center; */
+        margin-bottom: 15px;
+    }
+
+    .leftSide {
+        width: 440px;
+        height: 314px;
+
+    }
+
+    .leftPara {
+        font-size: 19px;
+
+    }
+
+    .leftButton {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+
+        gap: 20px;
+
+
+    }
+
+    .rightSide {
+
+        width: 365px;
+
+
+    }
+    .workOne {
+     
+        height: 550px;
+     
+    }
+    .rightImage {
+        height: 550px;
+        border-radius: 10px;
+        position: relative;
+        left: 28px;
+        width: 240px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .innerContainer {
+        margin: 40px;
+        width: 440px;
+    }
+
+}

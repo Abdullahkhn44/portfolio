@@ -206,6 +206,7 @@
         height: 290px;
         left: 20%;
     }
+
     .AppText2 {
         font-size: 28px;
         color: gold;
@@ -213,6 +214,7 @@
         text-align: left;
         margin-bottom: 3%;
     }
+
     .AppText3 {
         font-size: 28px;
         color: gold;
@@ -220,11 +222,131 @@
         text-align: left;
         margin-bottom: 3%;
     }
+
     .makingAppText3 {
         position: relative;
         left: 6%;
         justify-content: center;
-    
+
         align-content: center;
     }
+}
+
+@media only screen and (max-width:768px) {
+    .service-image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        filter: blur(5px);
+        height: 2000px;
+    }
+    .serviceTitle {
+        font-size: 40px;
+        color: gold;
+        font-family: "Montserrat";
+        margin-bottom: 10px;
+    
+        text-align: center;
+    }
+
+    .makingAppDiv {
+        display: flex;
+        margin-top: 15%;
+        position: absolute;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .devImage {
+        position: relative;
+        width: 235px;
+        height: 235px;
+        right: 3%;
+
+        justify-content: center;
+    }
+    .makingAppText {
+        position: relative;
+        left: 0%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .AppText {
+        font-size: 26px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .AppTextpara {
+        font-size: 18px;
+        color: white;
+        font-family: "Montserrat";
+        text-align: center;
+     
+        font-weight: 300;
+    }
+    .makingAppDiv2 {
+        display: flex;
+        margin-top: 95%;
+        position: absolute;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .devImage2 {
+        position: relative;
+        width: 290px;
+        height: 290px;
+        left: -4%;
+    }
+    .makingAppText2 {
+        position: relative;
+        /* right: 5%; */
+        justify-content: center;
+        align-content: center;
+    }
+    .AppText2 {
+        font-size: 26px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+
+    .makingAppDiv3 {
+        display: flex;
+        margin-top: 180%;
+        position: absolute;
+        width: 100%;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /* margin-bottom: 18px; */
+    }
+
+    .makingAppText3 {
+        position: relative;
+        left: 0%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .AppText3 {
+        font-size: 26px;
+        color: gold;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+ 
 }
